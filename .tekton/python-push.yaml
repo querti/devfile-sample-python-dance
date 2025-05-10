@@ -423,7 +423,8 @@ spec:
     - name: workspace
     - name: git-auth
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-python
   workspaces:
   - name: workspace
     volumeClaimTemplate:
